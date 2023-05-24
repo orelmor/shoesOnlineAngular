@@ -1,0 +1,47 @@
+div {
+    width: 250px; /* Adjust the width as needed */
+    background-color: #f1f1f1;
+  }
+  
+  /* Style for the menu items */
+  div ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  div ul li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  div ul li:hover {
+    background-color: #8475af;
+  }
+  
+  /* Style for the active menu item */
+  div ul li.cool {
+    background-color: #4CAF50;
+    color: white;
+    font-size: large;
+    
+  }
+  
+  /* Style for the sub-menu items */
+  div ul li ul {
+    display: none;
+    background-color: #fff;
+    padding-left: 20px;
+  }
+  
+  div ul li:hover ul {
+    display: block;
+  }
+  
+  div ul li ul li {
+    padding: 5px 0;
+  }
+  
+  div ul li ul li:hover {
+    background-color: #ddd;
+  }

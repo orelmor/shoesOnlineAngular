@@ -1,0 +1,10 @@
+<div class="Component">
+    <h4>We have more than {{pairAmount}} pairs to offer you</h4>
+</div>
+
+<app-sunday-discount></app-sunday-discount>
+
+<div>
+    <input [(ngModel)]="bgColor" type="text" (input)="changeBackgroundColor($event)">
+    <span [ngStyle]="{'background-color': bgColor}">{{bgColor}}</span>
+</div>
